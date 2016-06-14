@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CDJSONExporter"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "Conversion of a Core Data Store to/from JSON."
 
   s.description  = <<-DESC
@@ -16,10 +16,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Marcel Ruegenberg" => "gh@dustlab.com" }
 
-  s.ios.platform = :ios, "5.0"
-  s.osx.platform = :osx, "10.7"
-
-  s.source       = { :git => "https://github.com/mruegenberg/CDJSONExporter.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/marceloRod/CDJSONExporter.git", :tag => s.version }
 
   s.source_files  = '*.{h,m}'
 
